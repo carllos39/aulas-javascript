@@ -36,3 +36,14 @@ console.log(carro.modelo);
 console.log(`Carros da ${carro.marca} tem a ${carro.cor}.`);
 
 console.log(`Este carro tem ${carro.opcionais[0]} e ${carro.opcionais[2]}`);
+
+//Exercício
+//Crie um novo objeto  contendo  informações  de algo que você goste (filme ,livro ,comida jogos etc)
+//2-Mostre uma mensagem  com pelo menos duas propriedades  do objeto.
+
+let livro={
+    titulo:"php8",
+    paginas:200,
+    cor:"branco"
+};
+console.log(`O nome livro é ${livro.titulo} número de paginas ${livro.paginas} `);
