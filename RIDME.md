@@ -13,3 +13,15 @@ Carousel/Slide de conteúdo
 Funcionalidades de navegação
 Validação mais avançadas  de formulário
 JS pode ser usado  até mesmo para criação de aplicativos e games.
+
+Tipos de dados mais comum
+
+String (texto em geral)
+Number (Números inteiros ,decimais octais etc )
+
+Array(Vetor/Matriz- Lista de dados indexados)
+objeto-(Dados não indexados com propriedades e valores)
+
+Boolean(Booleano, valores true/ verdadeiro e false/falso)
+
+Dica: se quiser verificar o tipo de dados  de uma variável / constante , use  o comando "typeof"nomeDaVariavel.

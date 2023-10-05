@@ -4,3 +4,5 @@
 
 // Arrays
 let cursos=["Node.js","React","SQL","UX/UI Desing"];
+console.log(cursos);
+console.log(cursos[2]);//SQL
