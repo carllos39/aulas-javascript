@@ -17,3 +17,4 @@ console.log(ano);
 console.log(`Estou fazendo curso de ${curso} neste ano de ${ano}.`);
 // Concatenação(forma mais antiga de saida ,mais ainda válida)
 console.log("Estou fazendo o curso de" + curso+"neste ano de"+ ano+".");
+
