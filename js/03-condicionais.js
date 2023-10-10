@@ -8,11 +8,14 @@
  
  let usuario="Juan";
  let idade=25;
+ let mensagem;//indefinida
 
  //Verificar se a idade é maior ou menor
  if(idade>= 18){
-    console.log(`${usuario} é maior de idade`);
+  mensagem= "maior";
 
  }else{
-    console.log(`${usuario} é menor de idade`);
+    mensagem= "menor";
  }
+
+ console.log(`${usuario} é ${mensagem} de idade!`);
