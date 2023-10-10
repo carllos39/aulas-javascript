@@ -43,7 +43,67 @@ console.log(`Este carro tem ${carro.opcionais[0]} e ${carro.opcionais[2]}`);
 
 let livro={
     titulo:"php8",
+    autor:"Mauricio da Silva",
     paginas:200,
     cor:"branco"
 };
-console.log(`O nome livro é ${livro.titulo} número de paginas ${livro.paginas} `);
+console.log(`O autor é ${livro.autor
+} nome livro é ${livro.titulo} número de paginas ${livro.paginas} `);
+
+console.log("----------------------------------------------------");
+//Objeto com array e com outro objetos
+
+let pessoa={
+    nome:"Shiryu",
+    idade:20,
+    telefones:["11-21350300","11-91234-5678"],
+
+    medidas:{
+        peso:65,
+        altura:1.75,
+    }
+};
+
+console.log(`Nome :${pessoa.nome}`);
+console.log(`Celular:${pessoa.telefones[1]}`);
+console.log(`Peso:${pessoa.medidas.peso} kg`);
+
+
+//Array de objetos
+let alunos=[
+{
+    nome:"Naruto",
+    idade:10
+},
+{
+Nome:"Guts",
+idade:30
+},
+
+{
+    nome:"Dohko",
+    idade:120
+},
+];
+
+console.log(alunos[1].nome);//Guts
+console.log(alunos[0].nome);//Naruto
+console.log(`O cavaleiro de ouro originalmente era o ${alunos[2].nome} de Libra que tem ${alunos[2].idade} anos`);
+
+//Array matriz
+
+let tecnologias=[
+    ["HTML5","CSS3","JavaScrip"],
+
+    ["PHP","SQL","APIS","Nodes","Python"],
+
+    ["Figma","Photoshop"]
+];
+
+console.log(tecnologias[1][3]);//Node
+console.log(tecnologias[2][1]);//Photoshop
+console.log(tecnologias[0][0]);//HTML
+
+//Saida de dados
+console.table(cursos);
+
