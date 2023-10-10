@@ -6,9 +6,10 @@
 //Comandos mais comuns
  // if (se), else (senão)
  
- let usuario="Juan";
- let idade=25;
- let mensagem;//indefinida
+ let usuario= prompt("Qual seu nome?");
+ let idade= prompt("Quantos anos você tem");
+ let mensagem; //indefinidas
+
 
  //Verificar se a idade é maior ou menor
  if(idade>= 18){
@@ -19,3 +20,6 @@
  }
 
  console.log(`${usuario} é ${mensagem} de idade!`);
+
+ alert(`${usuario} é ${mensagem} de idade!`);
+ 
