@@ -30,9 +30,10 @@
 
 // Loop com array
 
-let clientes=["Ozzy","Dio","Martin","Hughes","Gillan"];
 
-for(let i=0;i < 5; i++){
+let clientes=["Dio","Martin","Hughes","Gillan","Bruno","Marcos","Manoel"];
+let quantidade=clientes.length;
+for(let i=0;i < quantidade; i++){
     console.log(`Clientes: ${clientes[i]}`);
 
 }
