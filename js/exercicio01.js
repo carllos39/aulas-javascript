@@ -13,9 +13,5 @@ if(media>=7){
 }else if(media>=5){
     console.log(`A média é ${media} RECUPERAÇÃO!`);
 }else{
-<<<<<<< HEAD
  console.log(`A média é ${media} REPROVADO! `);
-=======
-    console.log(`A média é ${media} REPROVADO! `);
->>>>>>> a4b653cc361488f5b402c48cb098854b62a7cc21
 }
