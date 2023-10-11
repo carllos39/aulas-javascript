@@ -47,3 +47,14 @@ if(diaDasSemana == "sabado" || diaDasSemana=="domingo"){
 }else{
     console.log("Vá trabalhar...");    
 }
+console.log("---------------------------------------------------");
+
+//Operador lógico ! not -não/negação
+
+let blackfriday= false;
+
+if( ! blackfriday){
+    console.log("preços normais");
+}else{
+    console.log("preços com descontos"); 
+}
