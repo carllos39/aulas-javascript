@@ -23,7 +23,16 @@
 
 
 //Exemplo FOR -> Para
-for(let i=1;i <= 10;i++){
-    console.log(`i vale ${i}`);
+// for(let i=1;i <= 10;i++){
+//     console.log(`i vale ${i}`);
+
+// }
+
+// Loop com array
+
+let clientes=["Ozzy","Dio","Martin","Hughes","Gillan"];
+
+for(let i=0;i < 5; i++){
+    console.log(`Clientes: ${clientes[i]}`);
 
 }
