@@ -1,6 +1,6 @@
-//Estruturas de controle condsicional
+//Estruturas de controle condicional
 // Comando que permite  análisar  uma  ou mais  condições .
-//E apartir  do resultado desta análise (verdadeiro ou falso), o programa pode executar  ações diferentes.
+//É apartir  do resultado desta análise (verdadeiro ou falso), o programa pode executar  ações diferentes.
 
 
 //Comandos mais comuns
