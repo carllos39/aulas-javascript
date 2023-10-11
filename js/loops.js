@@ -14,12 +14,16 @@
 //}
 
 //Exemplo do/while
-let i=1;
+// let i=1;
 
-do {
-    console.log(`Contador vale: ${i}`);
-    i++;
-} while (i <= 3)
+// do {
+//     console.log(`Contador vale: ${i}`);
+//     i++;
+// } while (i <= 3)
 
 
+//Exemplo FOR -> Para
+for(let i=1;i <= 10;i++){
+    console.log(`i vale ${i}`);
 
+}
