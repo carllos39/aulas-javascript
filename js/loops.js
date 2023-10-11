@@ -1,3 +1,4 @@
+"use atrict";
 //Comandos de repetição,instrucões para realizar ações por uma quantidade  especifica de vazes.
 
 //Comandos tradicionais:
@@ -13,12 +14,12 @@
 //}
 
 //Exemplo do/while
-let contador=1;
+let i=1;
 
 do {
-    console.log(`Contador vale: ${contador}`);
-    contador++;
-} while (contador <= 3)
+    console.log(`Contador vale: ${i}`);
+    i++;
+} while (i <= 3)
 
 
 
