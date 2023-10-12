@@ -1,17 +1,18 @@
 let alunos=[
 {
-    aluno:Joazinho,
+    aluno:"Joazinho",
     id:1
 },
 {
-    aluno:Mariazinha,
+    aluno:"Mariazinha",
     id:2
 },
 {
-    aluno:Gilssepe,
+    aluno:"Gilssepe",
     id:3
-}
+},
 ];
-for(let id=0;id < 2;id++){
-    console.log(`Alunos:${alunos[id]}`);
-}
+
+ for(let i=0;i <=2;i++){
+     console.log(`Alunos:${alunos[i].aluno}`);
+ }
