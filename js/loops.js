@@ -31,10 +31,10 @@
 // Loop com array
 
 
-let clientes=["Dio","Martin","Hughes","Gillan","Bruno","Marcos","Manoel"];
+let clientes = ["Dio", "Martin", "Hughes", "Gillan", "Bruno", "Marcos", "Manoel"];
 //Menoria cache da quantidade de elementos do array
-let quantidade=clientes.length;
-for(let i=0;i < quantidade; i++){
+let quantidade = clientes.length;
+for (let i = 0; i < quantidade; i++) {
     console.log(`Clientes: ${clientes[i]}`);
 
 }
@@ -42,17 +42,26 @@ for(let i=0;i < quantidade; i++){
 console.log('--------------------------------------------');
 // for/of para array
 
-let bandas=["Slayer","Dream Theater","Nightwish"];
-for(let banda of bandas){
-console.log(banda);
+let bandas = ["Slayer", "Dream Theater", "Nightwish"];
+for (let banda of bandas) {
+    console.log(banda);
 }
 
 
-
-
-
-
-
-
-
 //for /in -> objeto
+let livro = {
+    titulo: "HTML",
+    autor: "Maujor",
+    site: "html://maujor.com",
+    ano: 2016,
+    editora: "Novatec",
+    edicao: 3
+};
+//para Dados dentro/ em livro
+for (let propriedade in livro) {
+    console.log(propriedade);
+    //Acessa o valor de cada propriedade
+    console.log(livro[propriedade]);
+
+    console.log(`${propriedade}->${livro[propriedade]}`);
+}
