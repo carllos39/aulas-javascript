@@ -38,3 +38,21 @@ for(let i=0;i < quantidade; i++){
     console.log(`Clientes: ${clientes[i]}`);
 
 }
+
+console.log('--------------------------------------------');
+// for/of para array
+
+let bandas=["Slayer","Dream Theater","Nightwish"];
+for(let banda of bandas){
+console.log(banda);
+}
+
+
+
+
+
+
+
+
+
+//for /in -> objeto
