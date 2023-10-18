@@ -1,8 +1,14 @@
-"use strict"
+"use strict";
 
-let valor=960;
-let dolar= 5.3;
-
+let valor=990;
+let dolar= 5.6;
+function formatarValor(valor){
+    let opcoes={
+        style:"currency",
+        currency:"BRL"
+}
+return valor.toLocaleString("pt-br",opcoes);
+}
 
 
 function converteValor(valor){
@@ -11,7 +17,6 @@ function converteValor(valor){
   
 
 }
-
-console.log(`O valor em reais é ${converteValor(valor).toLocaleString("pt-br",{style:"currency",currency:"BRL"})}`);
+console.log(formatarValor(converteValor(valor)));
 
 
