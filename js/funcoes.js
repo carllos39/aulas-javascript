@@ -51,3 +51,27 @@ console.log(`Preço:${formatarPreco(preco)}`);
 console.log(`Desconto:${formatarPreco(desconto)}`);
 console.log(`Preço final:${precoFinal.toLocaleString("pt-br",{style:"currency",currency:"BRL"})}`);
 
+console.log("----------------------------------------------------------------------");
+
+//Arrow Function
+//Sintase moderna para funções  no JS,bastante usada  por bibliotecas ,frameworks(React,Angular,Vue etc).
+// A sitexe geral é;
+//const algumNome=()=>{};
+//No entanto ,  esta  sintaxe pode ser mais consiça.
+// Versão 1
+//function dobra(valor){
+   // return valor * 2;
+
+//}
+//Versão 2
+//const dobra=(valor)=>{
+    //return valor *2;
+
+//};
+//Versão 3
+const dobra=valor => valor * 2;
+ console.log(dobra(10));
+console.log(dobra(1325));
+console.log(dobra(55.47));
+
+
