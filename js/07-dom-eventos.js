@@ -34,9 +34,25 @@ console.log(linksReferencia);
 
 let quantidadeLinks=linksReferencia.length;
 
-for(let i=0;i < linksReferencia;i++){
-    linksReferencia[i].setAttribute("target","_blank");
+//for(let i=0;i < linksReferencia;i++){
+    //linksReferencia[i].setAttribute("target","_blank");
     
+//}
+for(let link of linksReferencia){
+    link.setAttribute("target","_blank");
+
+
 }
+//Manipulação de Eventos
+
+const pagina=document.querySelector("body");
+const exemplo01=document.querySelector("#exemplo01");
+const mensagem=document.querySelector("#mensagem");
+//Ouvite de evento
+exemplo01.addEventListener("click",function(){
+    pagina.style.fontFamily= "Verdana";
+    mensagem.textContent="Fonte alterada!";
+    mensagem.style.backgroundColor="yellow";
+});
 
 
