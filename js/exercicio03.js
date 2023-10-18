@@ -12,6 +12,6 @@ function converteValor(valor){
 
 }
 
-console.log(`${converteValor(valor).toLocaleString("pt-br",{style:"currency",currency:"BRL"})}`);
+console.log(`O valor em reais é ${converteValor(valor).toLocaleString("pt-br",{style:"currency",currency:"BRL"})}`);
 
 
