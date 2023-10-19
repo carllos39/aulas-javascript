@@ -23,7 +23,7 @@ console.log(variosElementos[1]);
 
 //Modificando o DOM
 const titulo=document.querySelector("h1");
-titulo.textContent="Olá JavaScript!";
+titulo.textContent="Bem vindo a o  JavaScript!";
 
 titulo.style.textAlign="center";//css inline via JS.
 
@@ -44,6 +44,9 @@ for(let link of linksReferencia){
 
 }
 //Manipulação de Eventos
+const reprodutorAudio=document.querySelector("#reprodutor-audio");
+const imagemMeme=document.querySelector("#imagem-meme");
+
 
 const pagina=document.querySelector("body");
 const exemplo01=document.querySelector("#exemplo01");
@@ -53,6 +56,10 @@ exemplo01.addEventListener("click",function(){
     pagina.style.fontFamily= "Verdana";
     mensagem.textContent="Fonte alterada!";
     mensagem.style.backgroundColor="yellow";
+    reprodutorAudio.play();
+    imagemMeme.removeAttribute("hidden");
 });
+
+
 
 
