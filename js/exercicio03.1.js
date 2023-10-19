@@ -1,5 +1,5 @@
 let valorDaCotacao=5.03;
-let valorEmDolar=2500;
+let valorEmDolar=250;
 
 function converteMoeda(valor,cotacao){
     return valor*cotacao;
