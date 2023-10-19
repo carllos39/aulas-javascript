@@ -59,7 +59,18 @@ exemplo01.addEventListener("click",function(){
     reprodutorAudio.play();
     imagemMeme.removeAttribute("hidden");
 });
+//Exemplo modo noturno
+const botao=document.querySelector("#noturno");
+botao.addEventListener("click",gerenciarModoNoturno);
+function gerenciarModoNoturno(){
 
+pagina.classList.toggle("modo-noturno");
+if(pagina.classList.contains("modo-noturno")){
+botao.textContent="Desativar";
+}else{
+botao.textContent="Ativar";
+}
+}
 
 
 
